@@ -49,7 +49,6 @@ async def ready(ctx):
 
     if all(value == True for value in readyMembers.values()):
         await ctx.send('All members ready\nThe pact may proceed.')
-    print(readyMembers)
 
 
 bot.run(TOKEN)
